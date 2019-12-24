@@ -1,0 +1,20 @@
+# Niche
+train
+HAM radio
+
+# Game Type
+adventure
+creative
+quest
+RPG
+stealth
+
+# Game Theme Location
+future
+present-day
+medieval
+underwater
+
+# Challenge
+no electricity
+steam-powered
