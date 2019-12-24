@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
 
+from random import randrange
+
+
 locations = []
 challenges = []
 niches = []
@@ -24,7 +27,8 @@ def parse_data_section(section_name, data):
 def parse_data_file():
     with open('data.txt') as f:
         for line in f:
-            if not line:
+            line = line.rstrip('\n')
+            if (not line) or (line.startswith('//')):
                 continue
             elif line.startswith('#'):
                 space_index = line.find(' ') + 1
@@ -43,14 +47,14 @@ def debug():
 
 
 def new_idea():
-    parse_data()
+    parse_data_file()
     debug()
-    location = locations[random.int(len(locations))]
-    challenge = challenges[random.int(len(challenges))]
-    niche = niches[random.int(len(niches))]
-    type = types[random.int(len(types))]
-    goal = goals[random.int(len(goals))]
-    print(f'In {location}, with {challenge}, use {niche} and {type} to {goal}')
+    location = locations[randrange(len(locations))]
+    challenge = challenges[randrange(len(challenges))]
+    niche = niches[randrange(len(niches))]
+    game_type = types[randrange(len(types))]
+    goal = goals[randrange(len(goals))]
+    print(f'In {location}, with {challenge}, use {niche} and {game_type} to {goal}.')
  
 
 def main():
