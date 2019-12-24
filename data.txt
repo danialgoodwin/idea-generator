@@ -1,20 +1,30 @@
-# Niche
-train
-HAM radio
+# location: "In ____, "
+a world 1000 years from now
+present-day Antarctica
+a medieval world
+an underwater cavern
+an underwater city
 
-# Game Type
-adventure
-creative
-quest
-RPG
+# challenge: "with ____, "
+no electricity
+penguins
+steam-powered factories
+no laws
+
+# niche: "use ____ "
+dolphins
+trains
+a HAM radio
+
+# type: "and ____ "
+an adventurous spirit
+creativity
+quests
+role-playing (or leveling-up) (aka, RPG)
 stealth
 
-# Game Theme Location
-future
-present-day
-medieval
-underwater
-
-# Challenge
-no electricity
-steam-powered
+# goal: "to ____."
+colonize Mars
+cross the world
+dig a deep hole
+heal all koalas
