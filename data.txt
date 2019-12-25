@@ -42,3 +42,23 @@ find your lost sock
 heal all koalas
 house all ants
 stop global warming
+
+# business: "The ____"
+Amazon
+Apple
+Facebook
+Google
+Instagram
+Netflix
+Uber
+
+# topic: "of ____."
+automated data
+finding things
+games
+idea generation
+
+
+
+
+
